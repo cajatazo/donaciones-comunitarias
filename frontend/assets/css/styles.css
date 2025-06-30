@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar personalizada */
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Hero section */
+.hero-section {
+    padding: 3rem 0;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s cubic-bezier(.4,2,.6,1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress bars */
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+/* Form styles */
+.form-control, .form-select {
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Alertas */
+.alert {
+    border-radius: 10px;
+}
+
+/* Tablas */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e9ecef;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section .col-md-6 {
+        margin-bottom: 2rem;
+    }
+    
+    .stats-section .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+}

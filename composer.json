@@ -1,0 +1,14 @@
+{
+    "name": "red-peruana-donaciones",
+    "description": "Plataforma web para conectar organizaciones sociales con donantes",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "backend/"
+        }
+    }
+}
